@@ -1,0 +1,17 @@
+一、短链接：
+1、js客户端里面可以使用XMLHttpRequest；
+2、nodejs服务端则直接使用express，非常方便；
+3、nodejs客户端则使用request模块；
+4、ios不用多说，AFNetworking；
+
+
+二、长连接：
+1、js客户端、nodejs服务端和客户端都使用socket.io；
+2、ios还没用过，估计也是AFNetworking。即时通信的长连接，都已经封装好，不需要我们处理。
+
+
+三、区别与联系：
+1、长连接和短链接概念：http://www.cnblogs.com/beifei/archive/2011/06/26/2090611.html
+2、TCP的相关概念：http://www.cnblogs.com/0201zcr/p/4694945.html
+
+
