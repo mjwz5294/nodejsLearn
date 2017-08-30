@@ -1,2 +1,14 @@
 一、Apache的安装和配置
 http://jingyan.baidu.com/article/6d704a130c8a0d28da51ca5f.html?qq-pf-to=pcqq.c2c
+1、安装apache：sudo apt-get install apache2
+2、设置根目录：sudo vi /etc/apache2/apache2.conf
+3、设置资源目录：sudo vi /etc/apache2/sites-available/000-default.conf
+4、重启apache：sudo /etc/init.d/apache2 restart
+5、然后就可以访问了。
+6、以下步骤需要远程控制云服务器，这里需要安装SecureCRT，配置过程我就不写了：
+（1）官方下载地址：https://www.vandyke.com/products/securecrt/
+（2）破解版：http://www.cnblogs.com/qingtingzhe/articles/5008902.html
+（3）具体配置方法，需要到时候去查找。
+经过以上步骤，我就可以把编译好的网页资源部署到云服务器上，然后就可以访问咯~
+另外，修改文件夹名的命令：mv dir1 dir2
+同理，我还可以操作了
