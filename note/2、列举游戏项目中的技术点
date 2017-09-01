@@ -12,3 +12,6 @@ http://jingyan.baidu.com/article/6d704a130c8a0d28da51ca5f.html?qq-pf-to=pcqq.c2c
 经过以上步骤，我就可以把编译好的网页资源部署到云服务器上，然后就可以访问咯~
 另外，修改文件夹名的命令：mv dir1 dir2
 同理，我还可以操作了
+
+二、一些服务器管理工具：
+1、forever：http://www.jb51.net/article/50544.htm
